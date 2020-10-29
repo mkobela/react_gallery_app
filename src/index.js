@@ -1,3 +1,12 @@
+/***
+ * @author Michael Kobela <mkobela@gmail.com>
+ ***/
+
+/******************************************
+Treehouse FSJS Techdegree:
+Project 7 - React gallery app
+******************************************/
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';

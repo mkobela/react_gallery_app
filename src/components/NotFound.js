@@ -1,5 +1,8 @@
 import React from 'react';
 
+/***
+ * @function component  NotFound
+***/
 const NotFound = () => (
   <div>
     {/* Not Found */}

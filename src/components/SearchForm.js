@@ -1,8 +1,16 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 
+/**
+ * Class SearchForm
+ * @extends React.Compoment
+ */
 class SearchForm extends Component {
 
+  /***
+   * @method handleSumbit
+   * @property {object} e - target event
+  ***/
   handleSubmit = (e) => {
     e.preventDefault();
     let tagName = this.name.value;
@@ -11,6 +19,9 @@ class SearchForm extends Component {
     e.currentTarget.reset();
   }
 
+  /***
+   * @method render
+  ***/
   render(){
     return (
       <form onSubmit={this.handleSubmit} className="search-form">

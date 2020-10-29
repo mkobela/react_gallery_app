@@ -1,5 +1,8 @@
 import React from 'react';
 
+/***
+ * @function component  Photo
+***/
 const Photo = (props) => {
   return (
     <li>
